@@ -12,8 +12,69 @@ de un segundo, al volver hacer click debe volver a estar en blanco y negro.
   <head>
     <meta charset="utf-8">
     <title></title>
+     <style>
+    	
+    	.imagen{
+	  		float: left;
+    		padding: 5px;
+    		filter: grayscale(100%);
+			-webkit-filter: grayscale(100%); 
+			transition:filter 0.1s;
+			-webkit-transition:-webkit-filter 1s;
+		}
+		.imagen:hover {
+	    filter: none;
+	    -webkit-filter: grayscale(0%);
+	    -moz-filter:    grayscale(0%);
+	    -ms-filter:     grayscale(0%);
+	    -o-filter:      grayscale(0%);
+	    cursor: pointer;
+		}
+    </style>
   </head>
+
   <body>
+  	<body>
+ 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	  <script>
+	  	
+	  $( "gris" ).click(function() {
+  .toggleClass( gris, addOrRemove );
+});
+	    </script>
+
+  </body>
 
   </body>
 </html>
