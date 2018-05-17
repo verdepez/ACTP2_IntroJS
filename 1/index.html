@@ -10,8 +10,55 @@ Tip: Investigar el evento window.onload
   <head>
     <meta charset="utf-8">
     <title></title>
+    <style>
+    	.imagen{
+	  		float: left;
+    			padding: 5px;
+    	}
+    </style>
   </head>
   <body>
+ 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	<div class="imagen">
+		<img src="img/noah.jpg" alt="noah">
+	</div>
+	  <script>
+	  	$(document).ready(function() {
+	            alert("cargaron las imagenes");
+	    });
+	 
+	    $(window).on( "load", function() {
+	        alert("cargo el dom");
+	    });
+	    </script>
 
   </body>
 </html>
